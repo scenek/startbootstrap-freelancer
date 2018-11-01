@@ -4,6 +4,28 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
+/* KALIANKO; 4ca7d9ff
+voda: 4577b7ff
+topení: ea1f2aff
+plyn:  f6be12ff
+*/
+
+.voda {
+  color: #4577b7;
+}
+
+.topeni {
+  color: #ea1f2a !important;
+}
+
+.plyn {
+  color: #f6be12 !important;
+}
+
+.kalianko {
+  color: #4ca7d9 !important;
+}
+
 body {
   font-family: 'Lato';
 }
@@ -120,11 +142,11 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #f6be12; /* #fff; */
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #ea1f2a; /* #18BC9C; */
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -132,7 +154,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #4577b7; /* #18BC9C; */
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +179,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #4577b7; /*#18BC9C;*/ xxx
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #4ca7d9; /* #18BC9C; */
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -348,20 +370,45 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #2C3E50 !important; /* 18BC9C */
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #2C3E50 !important; /* 2C3E50 */
 }
 
 .text-primary {
   color: #18BC9C !important;
 }
 
+h2.text-primary {
+  color: #ea1f2a !important;
+}
+
 .text-secondary {
   color: #2C3E50 !important;
 }
+
+h2.text-secondary {
+  color: #f6be12 !important;
+}
+
+/*
+.voda {
+  color: #4577b7;
+}
+
+.topeni {
+  color: #ea1f2a;
+}
+
+.plyn {
+  color: #f6be12;
+}
+
+.kalianko {
+  color: #4ca7d9;
+}*/
 
 .btn-primary {
   background-color: #18BC9C;
